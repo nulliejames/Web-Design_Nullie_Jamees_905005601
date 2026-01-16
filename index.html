@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Sierra Leone Football Association</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <img
+              src="./images/logo.jpeg"
+              alt="Sierra Leone Football Association Logo"
+              class="logo-img"
+            />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="matches.html">Matches</a></li>
+          <li><a href="players.html">Players</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+      <section class="hero-section hero-bg">
+        <h1 class="page-title" style="color: white">
+          The Sierra Leone Football Association Premier League
+        </h1>
+
+        <p class="hero-text">
+          Welcome to the official home of Sierra Leone football! The Sierra
+          Leone Football Association (SLFA) is the governing body of football in
+          Sierra Leone, responsible for organizing and developing the beautiful
+          game across the nation. Our Premier League represents the pinnacle of
+          Sierra Leonean football, featuring the country's most talented players
+          and most passionate clubs. From Freetown to Bo, Makeni to Kenema, we
+          bring communities together through the universal language of football.
+        </p>
+
+        <div style="text-align: center; margin-bottom: 3rem">
+          <a href="about.html" class="btn">Discover Our Football Heritage</a>
+        </div>
+
+        <hr class="hr-divider" style="border-color: rgba(255, 255, 255, 0.3)" />
+
+        <div class="welcome-section">
+          <h2 class="welcome-title">WELCOME TO SLFA</h2>
+          <h3 class="welcome-subtitle">
+            Sierra Leone Football Association (SLFA)
+          </h3>
+          <p class="welcome-text">
+            Founded in 1960, SLFA has been at the forefront of developing
+            football talent in Sierra Leone. We oversee national teams, league
+            competitions, youth development programs, and grassroots initiatives
+            that nurture the next generation of Leone Stars. Our mission is to
+            promote football as a tool for national unity, youth empowerment,
+            and international recognition.
+          </p>
+          <a href="about.html" class="btn">Learn About Our Journey</a>
+        </div>
+      </section>
+
+      <!-- Match Highlights Section -->
+      <section class="highlight-section">
+        <h2 class="section-title" style="text-align: center">
+          WATCH MATCH HIGHLIGHTS
+        </h2>
+        <p class="page-subtitle">
+          Relive the most exciting moments from the Sierra Leone Premier League.
+          Watch goals, saves, and incredible plays from recent matches.
+        </p>
+
+        <div class="highlight-container">
+          <div class="video-grid">
+            <div class="main-video">
+              <!-- Main Highlight Video -->
+              <div class="iframe-container">
+                <!-- YouTube Embed for Sierra Leone Football Highlights -->
+                <iframe
+                  src="https://www.youtube.com/embed/Te_eyp8I5XM"
+                  title="Sierra Leone Football Highlights"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <div style="padding: 1.5rem">
+                <h3 style="color: #1a365d; margin-bottom: 0.5rem">
+                  Sierra Leone Premier League: Matchday 12 Highlights
+                </h3>
+                <p style="color: #4a5568; margin-bottom: 0.5rem">
+                  Featuring goals from Bo Rangers vs East End Lions clash
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: #718096;
+                    font-size: 0.9rem;
+                  "
+                >
+                  <span>December 15, 2024</span>
+                  <span>Duration: 4:32</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-sidebar">
+              <!-- Video 1 -->
+              <div
+                class="sidebar-video"
+                onclick="changeVideo('https://www.youtube.com/embed/C4L7wMz0y6A', 'Sierra Leone Premier League: Matchday 12 Highlights')"
+              >
+                <div class="video-title">FC Kallon vs Mighty Blackpool</div>
+                <div class="video-meta">December 14, 2024 • 3:45</div>
+              </div>
+
+              <!-- Video 2 -->
+              <div
+                class="sidebar-video"
+                onclick="changeVideo('https://www.youtube.com/embed/VIDEO_ID_2', 'Diamond Stars Comeback Victory')"
+              >
+                <div class="video-title">Diamond Stars Comeback Victory</div>
+                <div class="video-meta">December 13, 2024 • 5:12</div>
+              </div>
+
+              <!-- Video 3 -->
+              <div
+                class="sidebar-video"
+                onclick="changeVideo('https://www.youtube.com/embed/VIDEO_ID_3', 'Women\'s Premier League Final')"
+              >
+                <div class="video-title">Women's Premier League Final</div>
+                <div class="video-meta">December 10, 2024 • 6:28</div>
+              </div>
+
+              <!-- Video 4 -->
+              <div
+                class="sidebar-video"
+                onclick="changeVideo('https://www.youtube.com/embed/VIDEO_ID_4', 'Youth League Talent Showcase')"
+              >
+                <div class="video-title">Youth League Talent Showcase</div>
+                <div class="video-meta">December 8, 2024 • 4:15</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: 2rem">
+            <a
+              href="https://www.youtube.com/@SierraLeoneFootballAssociation"
+              target="_blank"
+              class="btn"
+            >
+              Watch More on YouTube
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        <div class="content-card">
+          <h3 class="section-title">LATEST NEWS</h3>
+          <div class="news-item">
+            <div class="news-date">December 15, 2024</div>
+            <div class="news-title">
+              SLFA Launches Youth Development Program
+            </div>
+            <p class="news-summary">
+              New initiative to identify and develop young football talent
+              across all 16 districts of Sierra Leone.
+            </p>
+          </div>
+          <div class="news-item">
+            <div class="news-date">December 10, 2024</div>
+            <div class="news-title">National Stadium Renovation Complete</div>
+            <p class="news-summary">
+              The Siaka Stevens Stadium renovation is complete, featuring
+              upgraded facilities for players and fans.
+            </p>
+          </div>
+          <div class="news-item">
+            <div class="news-date">December 5, 2024</div>
+            <div class="news-title">
+              Premier League Season Kickoff Announcement
+            </div>
+            <p class="news-summary">
+              The 2025 Premier League season will commence on January 18th with
+              exciting new format changes.
+            </p>
+          </div>
+          <div style="text-align: center; margin-top: 1.5rem">
+            <a href="#" class="btn btn-outline">View All News</a>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3 class="section-title">UPCOMING MATCHES</h3>
+          <div class="highlight-item">
+            <div class="highlight-date">Dec 21, 2024 • 4:00 PM</div>
+            <div class="highlight-title">East End Lions vs Bo Rangers</div>
+            <p class="highlight-summary">
+              Top of the table clash at National Stadium. Last meeting: 2-2
+              draw.
+            </p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-date">Dec 22, 2024 • 3:30 PM</div>
+            <div class="highlight-title">FC Kallon vs Diamond Stars</div>
+            <p class="highlight-summary">
+              Traditional rivals face off in Freetown derby match.
+            </p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-date">Dec 23, 2024 • 4:15 PM</div>
+            <div class="highlight-title">
+              Mighty Blackpool vs Ports Authority
+            </div>
+            <p class="highlight-summary">
+              Coastal derby with both teams fighting for top four position.
+            </p>
+          </div>
+          <div style="text-align: center; margin-top: 1.5rem">
+            <a href="matches.html" class="btn btn-outline">Full Fixtures</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Alternative Video Section (if YouTube embedding is blocked) -->
+      <div
+        class="no-video-message"
+        id="video-alternative"
+        style="display: none"
+      >
+        <div class="icon">▶️</div>
+        <h3>Video Content Temporarily Unavailable</h3>
+        <p>
+          Due to browser restrictions or network settings, embedded videos may
+          not display. You can:
+        </p>
+        <div
+          style="
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+          "
+        >
+          <a
+            href="https://www.youtube.com/@SierraLeoneFootballAssociation"
+            target="_blank"
+            class="btn"
+          >
+            Visit Our YouTube Channel
+          </a>
+          <a
+            href="https://www.facebook.com/SierraLeoneFA"
+            target="_blank"
+            class="btn"
+          >
+            Watch on Facebook
+          </a>
+          <a href="matches.html" class="btn btn-outline">
+            View Match Results
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Sierra Leone Football Association</h3>
+            <p>
+              Developing and promoting football across Sierra Leone since 1960.
+              Our mission is to use football as a tool for national development,
+              youth empowerment, and international unity.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About SLFA</a></li>
+              <li><a href="matches.html">Match Fixtures</a></li>
+              <li><a href="players.html">Top Players</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>
+              Kingtom National Stadium<br />
+              Freetown, Sierra Leone<br />
+              Email: info@slfa.org<br />
+              Phone: +232 76 225 151
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Sierra Leone Football Association. All rights reserved.
+            | "Raise Your Game" Since 1965
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

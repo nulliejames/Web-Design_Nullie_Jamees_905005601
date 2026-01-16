@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Sierra Leone Football Association</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <img
+              src="./images/logo.jpeg"
+              alt="Sierra Leone Football Association Logo"
+              class="logo-img"
+            />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="matches.html">Matches</a></li>
+          <li><a href="players.html">Players</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1 class="page-title">GET IN TOUCH WITH SLFA</h1>
+      <h2 class="page-subtitle">
+        We welcome your questions, feedback, and inquiries. Reach out to us
+        through any of the channels below or use our contact form.
+      </h2>
+
+      <div class="contact-container">
+        <div class="contact-form">
+          <h3 class="section-title">Send Us a Message</h3>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form-control"
+                placeholder="Enter your phone number"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" class="form-control">
+                <option value="">Select a subject</option>
+                <option value="tickets">Ticket Information</option>
+                <option value="membership">Membership Inquiry</option>
+                <option value="media">Media Request</option>
+                <option value="partnership">Partnership Opportunity</option>
+                <option value="technical">Technical Issue</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                placeholder="Enter your message or inquiry"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn" style="width: 100%">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <h3 class="info-title">Contact Information</h3>
+
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-content">
+                <h4>Main Office Address</h4>
+                <p>
+                  Kingtom National Stadium<br />
+                  Freetown, Sierra Leone<br />
+                  West Africa
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📧</div>
+              <div class="info-content">
+                <h4>Email Addresses</h4>
+                <p>
+                  General Inquiries: info@slfa.org<br />
+                  Media Relations: media@slfa.org<br />
+                  Ticketing: tickets@slfa.org
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div class="info-content">
+                <h4>Phone Numbers</h4>
+                <p>
+                  Main Office: +232 76 225 151<br />
+                  Ticketing Hotline: +232 33 225 152<br />
+                  Media Line: +232 78 225 153
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">🕒</div>
+              <div class="info-content">
+                <h4>Office Hours</h4>
+                <p>
+                  Monday - Friday: 8:00 AM - 5:00 PM<br />
+                  Saturday: 9:00 AM - 1:00 PM<br />
+                  Sunday: Closed
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <img
+              src="images/hero-background.jpeg"
+              alt="Kingtom National Stadium Location"
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <div
+              style="
+                text-align: center;
+                padding: 1.5rem;
+                background: #f8f9fa;
+                border-top: 3px solid #2d4a7c;
+              "
+            >
+              <strong style="color: #1a365d; font-size: 1.1rem"
+                >Kingtom National Stadium</strong
+              ><br />
+              <span style="color: #4a5568">Freetown, Sierra Leone</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card" style="margin-top: 3rem">
+        <h3 class="section-title">Department Contacts</h3>
+        <p style="color: #4a5568; margin-bottom: 1.5rem">
+          For specific inquiries, you can contact our departments directly:
+        </p>
+
+        <div class="departments-grid">
+          <div class="department-card">
+            <div class="department-name">Technical Department</div>
+            <div class="department-contact">
+              tech@slfa.org<br />+232 76 225 154
+            </div>
+          </div>
+          <div class="department-card">
+            <div class="department-name">Youth Development</div>
+            <div class="department-contact">
+              youth@slfa.org<br />+232 76 225 155
+            </div>
+          </div>
+          <div class="department-card">
+            <div class="department-name">Women's Football</div>
+            <div class="department-contact">
+              women@slfa.org<br />+232 76 225 156
+            </div>
+          </div>
+          <div class="department-card">
+            <div class="department-name">Competitions</div>
+            <div class="department-contact">
+              competitions@slfa.org<br />+232 76 225 157
+            </div>
+          </div>
+          <div class="department-card">
+            <div class="department-name">Marketing & Partnerships</div>
+            <div class="department-contact">
+              marketing@slfa.org<br />+232 76 225 158
+            </div>
+          </div>
+          <div class="department-card">
+            <div class="department-name">Legal Department</div>
+            <div class="department-contact">
+              legal@slfa.org<br />+232 76 225 159
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin: 4rem 0">
+        <h3 class="section-title">Stay Connected</h3>
+        <p
+          style="
+            color: #4a5568;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+        >
+          Follow us on social media for the latest updates, match highlights,
+          player interviews, and exclusive content from Sierra Leone football.
+        </p>
+        <div class="social-buttons">
+          <a href="#" class="social-btn btn-facebook">
+            <span>Facebook</span>
+          </a>
+          <a href="#" class="social-btn btn-twitter">
+            <span>Twitter</span>
+          </a>
+          <a href="#" class="social-btn btn-instagram">
+            <span>Instagram</span>
+          </a>
+          <a href="#" class="social-btn btn-youtube">
+            <span>YouTube</span>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Sierra Leone Football Association</h3>
+            <p>
+              Developing and promoting football across Sierra Leone since 1960.
+              Our mission is to use football as a tool for national development,
+              youth empowerment, and international unity.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About SLFA</a></li>
+              <li><a href="matches.html">Match Fixtures</a></li>
+              <li><a href="players.html">Top Players</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>
+              Kingtom National Stadium<br />
+              Freetown, Sierra Leone<br />
+              Email: info@slfa.org<br />
+              Phone: +232 76 225 151
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Sierra Leone Football Association. All rights reserved.
+            | "Raise Your Game" Since 1965
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
